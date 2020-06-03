@@ -8,7 +8,7 @@
 <mapper namespace="resource.empMapper">
 	<select id="selectAllemp"  resultType="Vo.Vo" parameterType="String">
         <!-- 쿼리 문 -->
-        select *
+        select eanme
         from employee
 	</select>
 </mapper>
